@@ -1,9 +1,11 @@
 /* Universal Styles */
 html
 body{
-  margin: 0;
+  width: 100%;
+  margin: 0 auto;
   font-style: "Helvetica", serif;
   font-size: 16px;
+  overflow-x: hidden;
 }
 
 /* Header */
@@ -39,6 +41,7 @@ header{
   padding-bottom: 1rem;
 }
 ul{
+  width: 100%;
   position: fixed;
   float:right;
   list-style: none;
@@ -56,15 +59,14 @@ li {
 /* Content Section */
 
 .content{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
+  width: 100;
 }
 
 /* First Section*/
 
 }
 .container1{
+  width: 100%;
   background-color: lightgray;
   display: flex;
   position: relative;
@@ -115,19 +117,43 @@ li {
 
 /* Second Section*/
 
-
 .container2{
   width: 100%;
-  background-color: #FFF;
+  background-color: rgba(211,211,211, 0.5);
   display: flex;
   position:relative;
   flex-direction: row nowrap;
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
+.container2 h2{
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(47,79,79);
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+.container2 h3{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(47,79,79);
+}
+.container2 p{
+  font-size: 1rem;
+  color: rgb(47,79,79);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+#author{
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(47,79,79);
+}
 #left2{
   width: 60%;
   height: 60%;
+  padding-top: 4rem;
+  padding-bottom: 0;
   padding-left: 1.5rem;
   display: flex;
   flex-direction: column;
@@ -135,8 +161,10 @@ li {
 #left2 img{
   width:100%;
 }
+
 #right2 {
   width: 40%;
+  padding-top: 4rem;
   padding-left: 1.5rem;
   display: flex;
   flex-direction: column;
@@ -153,6 +181,7 @@ li {
 #right2a img{
   width: 35%;
   height: 35%;
+  padding-right: 1rem;
 }
 #right2a1{
   width:65%;
@@ -169,6 +198,7 @@ li {
 #right2b img{
   width: 35%;
   height: 35%;
+  padding-right: 1rem;
 }
 #right2b1{
   width:65%;
@@ -185,6 +215,7 @@ li {
 #right2c img{
   width: 35%;
   height: 35%;
+  padding-right: 1rem;
 }
 #right2c1{
   width:65%;
