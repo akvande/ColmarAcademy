@@ -1,0 +1,116 @@
+/* Universal Styles */
+html
+body{
+  font-style: "Helvetica";
+  font-size: 16px;
+}
+
+/* Header */
+header{
+  height: 4rem;
+  width: 100%;
+  display: inline-flex;
+  position: fixed;
+  background-color: #FFF;
+  z-index: 2;
+}
+.logo{
+  display:inline-flex;
+  background-color: #FFF;
+  position: fixed;
+}
+#logo{
+  height: 4rem;
+  width:auto;
+  margin-left:1.5rem;
+}
+#title-bold{
+  font-size: 2rem;
+  font-weight:bolder;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+#title{
+  font-size: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+ul{
+  position: fixed;
+  float:right;
+  list-style: none;
+  right: 0;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-right: 1.5rem;
+  font-size: 1.5rem;
+  text-align: right;
+}
+li {
+  display:inline;
+  padding-left: 1rem;
+
+/* Content Section */
+
+/* First Section*/
+
+}
+.container1{
+  background-color: lightgray;
+  margin: 0;
+  display: flex;
+  flex-direction: row nowrap;
+  align-items: center;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+}
+
+#left1{
+  width: 60%;
+  padding-left: 1.5rem;;
+  display: flex;
+}
+#left1 img{
+  width:100%;
+}
+#right1 {
+  width: 40%;
+  color: darkslategray;
+  padding-left: 1.5rem;
+  padding-right: 3rem;
+}
+
+#right1 h1{
+  font-size: 4rem;
+  font-weight: bold;
+    text-align: left;
+}
+#right1 h3{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: left;
+}
+#right1 h5{
+  width: 90%;
+  background-color: darkslategray;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+/* Second Section*/
+
+}
+.container2{
+  background-color: #FFF;
+  margin: 0;
+  display: flex;
+  flex-direction: row nowrap;
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
