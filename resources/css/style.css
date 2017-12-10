@@ -2,7 +2,8 @@
 html
 body{
   width: 100%;
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
   font-style: "Helvetica", serif;
   font-size: 16px;
   overflow-x: hidden;
@@ -55,19 +56,19 @@ ul{
 li {
   display:inline;
   padding-left: 1rem;
-
+}
 /* Content Section */
 
 .content{
-  width: 100;
+  margin:auto;
+  width: 100%;
 }
 
 /* First Section*/
 
-}
 .container1{
   width: 100%;
-  background-color: lightgray;
+  background-color: rgb(211,211,211);
   display: flex;
   position: relative;
   flex-direction: row nowrap;
@@ -119,7 +120,7 @@ li {
 
 .container2{
   width: 100%;
-  background-color: rgba(211,211,211, 0.5);
+  background-color: rgba(211,211,211, 0.2);
   display: flex;
   position:relative;
   flex-direction: row nowrap;
@@ -168,6 +169,9 @@ li {
   padding-left: 1.5rem;
   display: flex;
   flex-direction: column;
+}
+#right2 p{
+  padding-right: 5rem;
 }
 #right2a{
   width: 100%;
@@ -221,4 +225,137 @@ li {
   width:65%;
   display: flex;
   flex-direction: column;
+}
+#row1{
+  width: 100%;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(47,79,79);
+}
+
+.container3{
+  width: 100%;
+  margin:0 auto;
+  background-color: lightgray;
+}
+.column1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 2rem 4rem;
+}
+
+.container3 h3{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(47,79,79);
+  text-align: left;
+  padding-top: 1rem;
+}
+.container3 h6{
+  font-size: 1rem;
+  color: rgb(47,79,79);
+  text-align: left;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.container3 p{
+  font-size: 1rem;
+  color: rgb(47,79,79);
+  text-align: left;
+  padding-bottom: 1.5rem;
+}
+
+.row2{
+  width:100%;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.row2 img{
+  width: 100%;
+  height:auto;
+}
+.row2col1{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+.row2 #col1row2{
+  min-height: 9rem;
+  background-color: #FFF;
+  padding-left: 1rem;
+}
+.row2col2{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.row2 #col2row2{
+  min-height: 9rem;
+  background-color: #FFF;
+  padding-left: 1rem;
+}
+.row2col3{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+.row2 #col3row2{
+  min-height: 9rem;
+  background-color: #FFF;
+  padding-left: 1rem;
+}
+.row3{
+  width:100%;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.row3 img{
+  width: 100%;
+  height:auto;
+}
+.row3col1{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+.row3 #col1row2{
+  min-height: 9rem;
+  background-color: #FFF;
+  padding-left: 1rem;
+}
+.row3col2{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.row3 #col2row2{
+  min-height: 9rem;
+  background-color: #FFF;
+  padding-left: 1rem;
+}
+.row3col3{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+.row3 #col3row2{
+  min-height: 9rem;
+  background-color: #FFF;
+  padding-left: 1rem;
 }
