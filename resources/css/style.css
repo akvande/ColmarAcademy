@@ -215,7 +215,7 @@ header{
 }
 #right1 h5{
   margin:auto;
-  width:85%;
+  width:80%;
   background-color: darkslategray;
   color: white;
   font-size: 1rem;
@@ -227,7 +227,7 @@ header{
 }
 }
 /* Second Section*/
-
+@media only screen and (min-width: 1024px){
 .container2{
   width: 100%;
   background-color: rgba(211,211,211, 0.2);
@@ -346,7 +346,117 @@ header{
   display: flex;
   flex-direction: column;
 }
+}
+@media only screen and (max-width: 1023px){
+.container2{
+  background-color: rgba(211,211,211, 0.2);
+  display: flex;
+  flex-direction: column;
 
+}
+.container2 h2{
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(47,79,79);
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+.container2 h3{
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(47,79,79);
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+.container2 p{
+  font-size: 1.5rem;
+  color: rgb(47,79,79);
+  padding-left: 2rem;
+}
+
+#left2{
+  display: none;
+}
+#left2 img{
+  display:none;
+}
+#left2 h2{
+  display: none;
+}
+#left2 p{
+  display: none;
+}
+
+#right2 {
+  width: 100%;
+  height:auto;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+#right2 p{
+  line-height: 1.5;
+}
+#right2a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+#right2a:hover{
+  background-color: rgb(211,211,211);
+}
+#right2a img{
+  width: 90%;
+  height:12rem;
+}
+#right2a1{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+}
+#right2b{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+#right2b:hover{
+  background-color: rgb(211,211,211);
+}
+#right2b img{
+  width: 90%;
+  height:12rem;
+
+}
+#right2b1{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+}
+#right2c{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+#right2c:hover{
+  background-color: rgb(211,211,211);
+}
+#right2c img{
+  width: 90%;
+  height:12rem;
+
+}
+#right2c1{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+}
+}
 /* Three Section*/
 
 .container3{
