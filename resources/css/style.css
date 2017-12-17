@@ -161,6 +161,7 @@ header{
 }
 #left2 img{
   width:100%;
+  padding-top: 1rem;
 }
 
 #right2 {
@@ -178,9 +179,11 @@ header{
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem;
+  border-bottom: solid rgb(211,211,211) 1px;
+}
+#right2a:hover{
+  background-color: rgb(211,211,211);
 }
 #right2a img{
   width: 35%;
@@ -198,6 +201,10 @@ header{
   flex-direction: row;
   align-items: center;
   padding: 1rem;
+  border-bottom: solid rgb(211,211,211) 1px;
+}
+#right2b:hover{
+  background-color: rgb(211,211,211);
 }
 #right2b img{
   width: 35%;
@@ -215,6 +222,9 @@ header{
   flex-direction: row;
   align-items: center;
   padding: 1rem;
+}
+#right2c:hover{
+  background-color: rgb(211,211,211);
 }
 #right2c img{
   width: 35%;
@@ -405,12 +415,13 @@ header{
 }
 #left4-2{
   width: 60%;
+  padding-top: 1rem;
   padding-left: 1.5rem;
 }
 #left4-2 video{
   width:100%;
   height: auto;
-  border: solid 1px;
+  border: solid rgb(211,211,211) 1px;
 }
 
 #right4-2 {
@@ -427,9 +438,11 @@ header{
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem;
+  border-bottom: solid rgb(211,211,211) 1px;
+}
+#right4-2a:hover{
+  background-color: rgb(211,211,211);
 }
 #right4-2a img{
   width: 35%;
@@ -447,6 +460,9 @@ header{
   flex-direction: row;
   align-items: center;
   padding: 1rem;
+}
+#right4-2b:hover{
+  background-color: rgb(211,211,211);
 }
 #right4-2b img{
   width: 35%;
@@ -470,6 +486,8 @@ footer span{
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 1.5rem;
+  color: rgb(47,79,79);
+  border-top: solid rgba(47,79,79,0.5) 1px;
 }
 footer ul{
   width: 100%;
@@ -481,8 +499,12 @@ footer ul{
   padding-right: 1.5rem;
   font-size: 1rem;
   text-align: right;
+  border-top: solid rgba(47,79,79,0.5) 1px;
 }
 footer li {
   display:inline;
   padding-left: 1rem;
+}
+footer li a{
+  color: rgb(47,79,79);
 }
