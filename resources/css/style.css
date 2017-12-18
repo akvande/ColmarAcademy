@@ -150,6 +150,8 @@ header{
 }
 #left1 img{
   width:100%;
+  height: auto;
+  object-fit: cover;
 }
 #right1 {
   width: 40%;
@@ -189,6 +191,7 @@ header{
 #left1 img{
   width:100%;
   height:50%;
+  object-fit: cover;
 }
 #right1 {
   width: 100%;
@@ -410,6 +413,7 @@ header{
 #right2a img{
   width: 90%;
   height:12rem;
+  object-fit: cover;
 }
 #right2a1{
   width:100%;
@@ -429,6 +433,7 @@ header{
 #right2b img{
   width: 90%;
   height:12rem;
+  object-fit: cover;
 
 }
 #right2b1{
@@ -449,6 +454,7 @@ header{
 #right2c img{
   width: 90%;
   height:12rem;
+  object-fit: cover;
 
 }
 #right2c1{
@@ -457,6 +463,7 @@ header{
   flex-direction: column;
 }
 }
+
 /* Three Section*/
 @media only screen and (min-width: 1024px){
 .container3-alt{
@@ -792,13 +799,15 @@ header{
   background-color: rgba(211,211,211, 0.2);
   width:100%;
   height:16rem;
+  padding-bottom: 1.5rem;
+  border: none;
 }
 .container4{
   display:none;
 }
 .container4-alt video{
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 #row4-1{
   width: 100%;
@@ -856,6 +865,7 @@ header{
 }
 
 /* Footer */
+@media only screen and (min-width: 1024px){
 footer{
   width: 100%;
   height: 4rem;
@@ -889,4 +899,30 @@ footer li {
 }
 footer li a{
   color: rgb(47,79,79);
+}
+}
+@media only screen and (max-width: 1023px){
+footer{
+  width: 100%;
+  height: 4rem;
+  display:inline-flex;
+  background-color: rgba(211,211,211, 0.2);
+}
+footer span{
+  width: 100%;
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  color: rgb(47,79,79);
+}
+footer ul{
+  display:none;
+}
+footer li {
+  display:none;
+}
+footer li a{
+  display:none;
+}
 }
