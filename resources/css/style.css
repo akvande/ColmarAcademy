@@ -231,6 +231,9 @@ header{
 }
 /* Second Section*/
 @media only screen and (min-width: 1024px){
+.container2-alt{
+  display: none;
+}
 .container2{
   width: 100%;
   background-color: rgba(211,211,211, 0.2);
@@ -287,6 +290,7 @@ header{
 #right2 p{
   padding-right: 5rem;
 }
+
 #right2a{
   width: 100%;
   display: flex;
@@ -298,16 +302,19 @@ header{
 #right2a:hover{
   background-color: rgb(211,211,211);
 }
+
 #right2a img{
   width: 35%;
   height: 35%;
   padding-right: 1rem;
 }
+
 #right2a1{
   width:65%;
   display: flex;
   flex-direction: column;
 }
+
 #right2b{
   width: 100%;
   display: flex;
@@ -319,16 +326,19 @@ header{
 #right2b:hover{
   background-color: rgb(211,211,211);
 }
+
 #right2b img{
   width: 35%;
   height: 35%;
   padding-right: 1rem;
 }
+
 #right2b1{
   width:65%;
   display: flex;
   flex-direction: column;
 }
+
 #right2c{
   width: 100%;
   display: flex;
@@ -339,11 +349,13 @@ header{
 #right2c:hover{
   background-color: rgb(211,211,211);
 }
+
 #right2c img{
   width: 35%;
   height: 35%;
   padding-right: 1rem;
 }
+
 #right2c1{
   width:65%;
   display: flex;
@@ -352,31 +364,40 @@ header{
 }
 @media only screen and (max-width: 1023px){
 .container2{
+  display:none;
+}
+.container2-alt{
   background-color: rgba(211,211,211, 0.2);
   display: flex;
   flex-direction: column;
 
 }
-.container2 h2{
+.container2-alt h2{
   font-size: 2rem;
   font-weight: bold;
   color: rgb(47,79,79);
   padding-top: 2rem;
   padding-bottom: 1rem;
 }
-.container2 h3{
+.container2-alt h3{
   font-size: 2rem;
   font-weight: bold;
   color: rgb(47,79,79);
   padding-left: 2rem;
   padding-top: 2rem;
+  padding-bottom: 1rem;
 }
-.container2 p{
+.container2-alt p{
   font-size: 1.5rem;
+  line-height:2;
   color: rgb(47,79,79);
   padding-left: 2rem;
+  padding-bottom: 1.5rem;
 }
-
+.container2-alt a{
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
 #left2{
   display: none;
 }
@@ -390,74 +411,74 @@ header{
   display: none;
 }
 
-#right2 {
+#right2-alt {
   width: 100%;
   height:auto;
   padding-top: 1rem;
   display: flex;
   flex-direction: column;
 }
-#right2 p{
-  line-height: 1.5;
+#right2-alt p{
+  line-height: 1;
 }
-#right2a{
+#right2a-alt{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding-bottom: 2rem;
 }
-#right2a:hover{
+#right2a-alt:hover{
   background-color: rgb(211,211,211);
 }
-#right2a img{
+#right2a-alt img{
   width: 90%;
   height:12rem;
   object-fit: cover;
 }
-#right2a1{
+#right2a1-alt{
   width:100%;
   display: flex;
   flex-direction: column;
 }
-#right2b{
+#right2b-alt{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding-bottom: 2rem;
 }
-#right2b:hover{
+#right2b-alt:hover{
   background-color: rgb(211,211,211);
 }
-#right2b img{
+#right2b-alt img{
   width: 90%;
   height:12rem;
   object-fit: cover;
 
 }
-#right2b1{
+#right2b1-alt{
   width:100%;
   display: flex;
   flex-direction: column;
 }
-#right2c{
+#right2c-alt{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding-bottom: 2rem;
 }
-#right2c:hover{
+#right2c-alt:hover{
   background-color: rgb(211,211,211);
 }
-#right2c img{
+#right2c-alt img{
   width: 100%;
   height:auto;
   object-fit: cover;
 
 }
-#right2c1{
+#right2c1-alt{
   width:100%;
   display: flex;
   flex-direction: column;
