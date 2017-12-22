@@ -1,5 +1,4 @@
 /* Universal Styles */
-@media only screen and (min-width: 1024px){
 html
 body{
   width: 100%;
@@ -8,18 +7,6 @@ body{
   font-style: "Helvetica", serif;
   font-size: 16px;
   overflow-x: hidden;
-}
-}
-@media only screen and (max-width: 1023px){
-html
-body{
-  width: 100%;
-  margin: auto 0;
-  padding: 0;
-  font-style: "Helvetica", serif;
-  font-size: 16px;
-  overflow-x: hidden;
-}
 }
 /* Header */
 @media only screen and (min-width: 1024px){
@@ -75,7 +62,7 @@ header{
   padding-left: 1rem;
 }
 }
-@media only screen and (max-width: 1023px){
+@media only screen and (max-width: 600px){
 header{
   display:none;
 }
@@ -87,6 +74,9 @@ header{
   background-color: #FFF;
   justify-content: center;
   align-items: center;
+}
+.alt-header img{
+  height: 2rem;
 }
 .logo-small{
   width: 100%%;
@@ -107,6 +97,42 @@ header{
   display:inline;
   align-items: center;
   padding-left: 4rem;
+}
+}
+@media only screen and (min-width: 601px)and (max-width: 1023px){
+header{
+  display:none;
+}
+.alt-header{
+  margin:auto;
+  height:6rem;
+  display:flex;
+  background-color: #FFF;
+  justify-content: center;
+  align-items: center;
+}
+.alt-header img{
+  height: 4rem;
+}
+.logo-small{
+  width: 100%%;
+  display:flex;
+  background-color: #FFF;
+  padding-top:.5rem;
+  padding-bottom:.5rem;
+  justify-content: space-between;
+}
+#logo-small{
+
+}
+.logo-small ul{
+  list-style: none;
+
+}
+.logo-small li {
+  display:inline;
+  align-items: center;
+  padding-left: 5rem;
 }
 }
 /* Content Section */
@@ -393,6 +419,7 @@ header{
   color: rgb(47,79,79);
   padding-left: 2rem;
   padding-bottom: 1.5rem;
+  padding-right: 1rem;
 }
 .container2-alt a{
   padding-bottom: 1rem;
