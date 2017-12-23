@@ -92,6 +92,10 @@ p{
   background-color: #124662;
   color: #fff;
 }
+.container3-alt button:hover{
+  background-color: #fff;
+  color: #124662;
+}
 #col1row1{
   background-color: #124662;
 }
@@ -101,23 +105,65 @@ p{
 #col3row1{
   background-color: #124662;
 }
+.row2col1{
+  background-color: #124662;
+  color: #fff;
+  border: solid #fff 1px;
+}
 .row2col1:hover{
-  border: double #124662 10px;
+  background-color: #fff;
+  color: #124662;
+  border: solid #124662 1px;
+}
+.row2col2{
+  background-color: #124662;
+  color: #fff;
+  border: solid #fff 1px;
 }
 .row2col2:hover{
-  border: double #124662 10px;
+  background-color: #fff;
+  color: #124662;
+  border: solid #124662 1px;
+}
+.row2col3{
+  background-color: #124662;
+  color: #fff;
+  border: solid #fff 1px;
 }
 .row2col3:hover{
-  border: double #124662 10px;
+  background-color: #fff;
+  color: #124662;
+  border: solid #124662 1px;
+}
+.row3col1{
+  background-color: #124662;
+  color: #fff;
+  border: solid #fff 1px;
 }
 .row3col1:hover{
-  border: double #124662 10px;
+  background-color: #fff;
+  color: #124662;
+  border: solid #124662 1px;
+}
+.row3col2{
+  background-color: #124662;
+  color: #fff;
+  border: solid #fff 1px;
 }
 .row3col2:hover{
-  border: double #124662 10px;
+  background-color: #fff;
+  color: #124662;
+  border: solid #124662 1px;
+}
+.row3col3{
+  background-color: #124662;
+  color: #fff;
+  border: solid #fff 1px;
 }
 .row3col3:hover{
-  border: double #124662 10px;
+  background-color: #fff;
+  color: #124662;
+  border: solid #124662 1px;
 }
 
 .row3 #col1row2:{
@@ -139,14 +185,7 @@ p{
   background-color: #fff;
   color: #124662;
 }
-.courses{
-  background-color: #124662;
-  color: #FFF;
-  border-top: solid #124662 1px;
-}
-.courseborder{
-  border: solid #124662 3px;
-}
+
 #right1 h5{
   background-color: #124662;
   color: #FFF;
