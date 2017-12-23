@@ -4,13 +4,25 @@ body{
   width: 100%;
   margin: auto 0;
   padding: 0;
-  font-style: "Helvetica", serif;
+  font-family: "Helvetica",sans-serif;
   font-size: 16px;
   overflow-x: hidden;
+}
+p{
+  line-height: 1.5;
 }
 /*colors and styles*/
   header{
     background-color: #124662;
+  }
+  #title-bold{
+    color: #FFF;
+  }
+  #title{
+    color: #fff;
+  }
+  .logo ul a{
+    color: #fff;
   }
 .container1 {
   background-color: ##FFF;
@@ -21,13 +33,38 @@ body{
 #right1 h3{
   color: #124662;
 }
+.logo a{
+  color: #fff;
+  text-decoration: underline;
+}
+
 .container2 {
   background-color: #124662;
   color: #fff;
 }
+.container2 h2{
+  color: #fff;
+}
+.container2 a{
+  color: #fff;
+  text-decoration: underline;
+}
 .container2-alt {
   background-color: #124662;
   color: #fff;
+}
+.container2-alt a{
+  color: #fff;
+  text-decoration: underline;
+}
+#right2a a{
+  color: inherit;
+}
+#right2b a{
+  color: inherit;
+}
+#right2c a{
+  color: inherit;
 }
 #row1{
   background-color: #FFF;
@@ -45,43 +82,59 @@ body{
   background-color: #124662;
   color: #fff;
 }
+#col1row1{
+  background-color: #124662;
+}
+#col2row1{
+  background-color: #124662;
+}
+#col3row1{
+  background-color: #124662;
+}
+
 #row4-1{
   background-color: #124662;
+  color: #fff;
 }
 .container4{
   background-color: #124662;
+  color: #fff;
 }
 .container4-alt{
   background-color: #124662;
+  color: #fff;
 }
-
 .hover:hover{
-  background-color: rgb(211,211,211);
+  background-color: #fff;
+  color: #124662;
 }
 .courses{
-  background-color: #FFF;
+  background-color: #124662;
+  color: #FFF;
+  border-top: solid #124662 1px;
+}
+.courseborder{
+  border: solid #124662 3px;
 }
 #right1 h5{
-  background-color: rgb(71,80,55);
+  background-color: #124662;
   color: #FFF;
 }
 .spacer{
-    border-bottom: solid rgb(211,211,211) 1px;
+    border-bottom: solid #FFF 1px;
 }
 .spacer-top{
-  border-top: solid rgb(211,211,211) 1px;
-}
-video{
-    border: solid rgb(211,211,211) 1px;
+  border-top: solid #FFF 1px;
 }
 
 footer{
-  background-color: rgba(211,211,211, 0.2);
+  background-color: #fff;
+    color: #124662;
 }
+footer ul a{
+  color: #124662;
 }
-footer li a{
-  color: rgb(47,79,79);
-}
+
 /* Header */
 @media only screen and (min-width: 1024px){
 header{
@@ -102,20 +155,24 @@ header{
   position: fixed;
 }
 #logo{
-  height: 4rem;
+  height: 3.5rem;
   width:auto;
   margin-left:1.5rem;
+  padding-top:.25rem;
+  padding-bottom: .25rem;
 }
 #title-bold{
   font-size: 2rem;
-  font-weight:bolder;
+  font-weight:700;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 #title{
   font-size: 2rem;
+  font-weight;100;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  padding-left: .5rem;
 }
 .logo ul{
   width: 100%;
@@ -237,13 +294,13 @@ header{
 @media only screen and (min-width: 1024px){
 #left1{
   width: 60%;
-  height: 60%;
+  height: auto;
   padding-left: 1.5rem;
   display: flex;
 }
 #left1 img{
   width:100%;
-  height: auto;
+  height: 80%;
   object-fit: cover;
   padding-bottom: 4rem;
 }
@@ -266,7 +323,7 @@ header{
 }
 #right1 h5{
   width: 90%;
-  font-size: 1rem;
+  font-size: 2rem;
   text-align: center;
   padding-top: .5rem;
   padding-bottom: .5rem;
@@ -332,7 +389,6 @@ header{
 .container2 h2{
   font-size: 2rem;
   font-weight: bold;
-  color: rgb(47,79,79);
   padding-top: 2rem;
   padding-bottom: 1rem;
 }
@@ -592,7 +648,7 @@ header{
   flex-direction: column;
 }
 .row2 #col1row2{
-  min-height: 9rem;
+  height: 10rem;
   padding-left: 1rem;
 }
 .row2col2{
@@ -603,7 +659,7 @@ header{
   padding-right: 2rem;
 }
 .row2 #col2row2{
-  min-height: 9rem;
+  height: 10rem;
   padding-left: 1rem;
 }
 .row2col3{
@@ -612,7 +668,7 @@ header{
   flex-direction: column;
 }
 .row2 #col3row2{
-  min-height: 9rem;
+  height: 10rem;
   padding-left: 1rem;
 }
 .row3{
@@ -633,7 +689,7 @@ header{
   flex-direction: column;
 }
 .row3 #col1row2{
-  min-height: 9rem;
+  height: 10rem;
   padding-left: 1rem;
 }
 .row3col2{
@@ -644,7 +700,7 @@ header{
   padding-right: 2rem;
 }
 .row3 #col2row2{
-  min-height: 9rem;
+  height: 10rem;
   padding-left: 1rem;
 }
 .row3col3{
@@ -653,7 +709,7 @@ header{
   flex-direction: column;
 }
 .row3 #col3row2{
-  min-height: 9rem;
+  height: 10rem;
   padding-left: 1rem;
 }
 }
@@ -924,6 +980,9 @@ footer ul{
 footer li {
   display:inline;
   padding-left: 1rem;
+}
+footer ul a{
+  text-decoration: underline;
 }
 }
 @media only screen and (max-width: 1023px){
