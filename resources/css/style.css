@@ -10,42 +10,51 @@ body{
 }
 /*colors and styles*/
   header{
-    background-color: #FFF;
+    background-color: #124662;
   }
 .container1 {
-  background-color: rgb(211,211,211);
+  background-color: ##FFF;
+}
+#right1 h1{
+  color: #124662;
+}
+#right1 h3{
+  color: #124662;
 }
 .container2 {
-  background-color: rgba(211,211,211, 0.2);
+  background-color: #124662;
+  color: #fff;
 }
 .container2-alt {
-  background-color: rgba(211,211,211, 0.2);
+  background-color: #124662;
+  color: #fff;
 }
 #row1{
-  background-color: rgb(211,211,211);
+  background-color: #FFF;
+  color: #124662;
 }
 .container3 {
-  background-color: rgb(211,211,211);
+  background-color: #fff;
+  color:#124662;
 }
 .container3-alt {
-  background-color: rgb(211,211,211);
+  background-color: #FFF;
+  color: #124662
 }
 .container3-alt button{
-  background-color: rgb(211,211,211);
-  color: darkslategray;
+  background-color: #124662;
+  color: #fff;
 }
 #row4-1{
-  background-color: rgba(211,211,211, 0.2);
+  background-color: #124662;
 }
 .container4{
-  background-color: rgba(211,211,211, 0.2);
+  background-color: #124662;
 }
 .container4-alt{
-  background-color: rgba(211,211,211, 0.2);
+  background-color: #124662;
 }
-h1 h2 h3 h5 h6 p span{
-  color: rgb(47,79,79);
-}
+
 .hover:hover{
   background-color: rgb(211,211,211);
 }
@@ -53,7 +62,7 @@ h1 h2 h3 h5 h6 p span{
   background-color: #FFF;
 }
 #right1 h5{
-  background-color: rgb(47,79,79);
+  background-color: rgb(71,80,55);
   color: #FFF;
 }
 .spacer{
@@ -205,13 +214,14 @@ header{
 .container1{
   width: 100%;
   display: flex;
-  position: relative;
+  position: static;
   flex-direction: row nowrap;
   align-items: center;
   top: 4rem;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
   overflow-x: hidden;
+}
+.container1 img{
+  padding-top: 6rem;
 }
 }
 @media only screen and (max-width: 1023px){
@@ -235,6 +245,7 @@ header{
   width:100%;
   height: auto;
   object-fit: cover;
+  padding-bottom: 4rem;
 }
 #right1 {
   width: 40%;
@@ -314,8 +325,8 @@ header{
   display: flex;
   position:relative;
   flex-direction: row nowrap;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   overflow-x: hidden;
 }
 .container2 h2{
@@ -341,7 +352,6 @@ header{
 #left2{
   width: 60%;
   height: 60%;
-  padding-top: 4rem;
   padding-bottom: 0;
   padding-left: 1.5rem;
   display: flex;
@@ -353,7 +363,6 @@ header{
 }
 #right2 {
   width: 40%;
-  padding-top: 4rem;
   padding-left: 1.5rem;
   display: flex;
   flex-direction: column;
@@ -420,8 +429,6 @@ header{
 .container2-alt{
   display: flex;
   flex-direction: column;
-  padding-top: 2rem;
-
 }
 .container2-alt h2{
   font-size: 2rem;
@@ -462,7 +469,6 @@ header{
 #right2-alt {
   width: 100%;
   height:auto;
-  padding-top: 1rem;
   display: flex;
   flex-direction: column;
 }
@@ -480,6 +486,7 @@ header{
   width: 90%;
   height:auto;
   object-fit: cover;
+  padding-top: 2rem;
 }
 #right2a1-alt{
   width:100%;
@@ -497,6 +504,7 @@ header{
   width: 90%;
   height:auto;
   object-fit: cover;
+  padding-top: 2rem;
 
 }
 #right2b1-alt{
@@ -515,7 +523,7 @@ header{
   width: 90%;
   height:auto;
   object-fit: cover;
-
+  padding-top: 2rem;
 }
 #right2c1-alt{
   width:100%;
