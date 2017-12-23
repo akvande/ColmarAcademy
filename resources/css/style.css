@@ -101,6 +101,25 @@ p{
 #col3row1{
   background-color: #124662;
 }
+.row2col1:hover{
+  border: double #124662 10px;
+}
+.row2col2:hover{
+  border: double #124662 10px;
+}
+.row2col3:hover{
+  border: double #124662 10px;
+}
+.row3col1:hover{
+  border: double #124662 10px;
+}
+.row3col2:hover{
+  border: double #124662 10px;
+}
+.row3col3:hover{
+  border: double #124662 10px;
+}
+
 .row3 #col1row2:{
   background-color: #124662;
 }
@@ -216,15 +235,15 @@ header{
   display:none;
 }
 .logo-small{
-  width: 50%;
+  width: 60%;
   display:flex;
   padding-top:.5rem;
   padding-bottom:.5rem;
   justify-content: space-between;
 }
 .logo-small img{
-  height: 4rem;
-  padding-top:1rem;
+  height: 2.5rem;
+  padding-top:.5rem;
   padding-bottom:.5rem;
   width: auto:
   float:left;
@@ -648,13 +667,14 @@ header{
 .container3 p{
   font-size: 1rem;
   text-align: left;
+  padding-right: .5rem;
   padding-bottom: 1.5rem;
 }
 .row2{
   width:100%;
   display:flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
 }
 .row2 img{
   width: 100%;
@@ -673,8 +693,6 @@ header{
   width: 25%;
   display: flex;
   flex-direction: column;
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 .row2 #col2row2{
   height: 10rem;
@@ -693,7 +711,7 @@ header{
   width:100%;
   display:flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -714,8 +732,6 @@ header{
   width: 25%;
   display: flex;
   flex-direction: column;
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 .row3 #col2row2{
   height: 10rem;
