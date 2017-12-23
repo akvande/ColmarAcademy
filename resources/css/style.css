@@ -12,153 +12,63 @@ body{
   header{
     background-color: #FFF;
   }
-.container1{
+.container1 {
   background-color: rgb(211,211,211);
 }
-#right1{
-  color: darkslategray;
-}
-#right1 h5{
-  background-color: darkslategray;
-  color: white;
-}
-#right1{
-  color: darkslategray;
-}
-.container2{
+.container2 {
   background-color: rgba(211,211,211, 0.2);
 }
-.container2 h3{
-  color: rgb(47,79,79);
-}
-.container2 p{
-    color: rgb(47,79,79);
-}
-#author{
-    color: rgb(47,79,79);
-}
-#right2a{
-    border-bottom: solid rgb(211,211,211) 1px;
-}
-#right2a:hover{
-  background-color: rgb(211,211,211);
-}
-#right2b{
-    border-bottom: solid rgb(211,211,211) 1px;
-}
-#right2b:hover{
-  background-color: rgb(211,211,211);
-}
-#right2c:hover{
-  background-color: rgb(211,211,211);
-}
-.container2-alt{
+.container2-alt {
   background-color: rgba(211,211,211, 0.2);
-}
-.container2-alt h2{
-  color: rgb(47,79,79);
-}
-.container2-alt h3{
-  color: rgb(47,79,79);
-}
-.container2-alt p{
-  color: rgb(47,79,79);
-}
-#right2a-alt:hover{
-  background-color: rgb(211,211,211);
-}
-#right2b-alt:hover{
-  background-color: rgb(211,211,211);
-}
-#right2c-alt:hover{
-  background-color: rgb(211,211,211);
-}
-.container3{
-    background-color: lightgray;
 }
 #row1{
-  background-color: lightgray;
-  color: rgb(47,79,79);
+  background-color: rgb(211,211,211);
 }
-.container3 h3{
-  color: rgb(47,79,79);
+.container3 {
+  background-color: rgb(211,211,211);
 }
-.container3 h6{
-  color: rgb(47,79,79);
-}
-.container3 p{
-  color: rgb(47,79,79);
-}
-.row2 #col1row2{
-  background-color: #FFF;
-}
-.row2 #col2row2{
-  background-color: #FFF;
-}
-.row2 #col3row2{
-  background-color: #FFF;
-}
-.row3 #col1row2{
-  background-color: #FFF;
-}
-.row3 #col2row2{
-  background-color: #FFF;
-}
-.row3 #col3row2{
-  background-color: #FFF;
-}
-.container3-alt{
-  background-color: rgba(211,211,211, 0.2);
+.container3-alt {
+  background-color: rgb(211,211,211);
 }
 .container3-alt button{
   background-color: rgb(211,211,211);
   color: darkslategray;
 }
-.container4{
-  background-color: rgba(211,211,211, 0.2);
-}
 #row4-1{
   background-color: rgba(211,211,211, 0.2);
-  color: rgb(47,79,79);
 }
-.container4 h2{
-  color: rgb(47,79,79);
-}
-.container4 h3{
-  color: rgb(47,79,79);
-}
-.container4 p{
-  color: rgb(47,79,79);
-}
-video{
-    border: solid rgb(211,211,211) 1px;
-}
-#right4-2a{
-  border-bottom: solid rgb(211,211,211) 1px;
-}
-#right4-2a:hover{
-  background-color: rgb(211,211,211);
-}
-#right4-2b:hover{
-  background-color: rgb(211,211,211);
+.container4{
+  background-color: rgba(211,211,211, 0.2);
 }
 .container4-alt{
   background-color: rgba(211,211,211, 0.2);
 }
-#row4-1{
-  background-color: rgba(211,211,211, 0.2);
+h1 h2 h3 h5 h6 p span{
   color: rgb(47,79,79);
+}
+.hover:hover{
+  background-color: rgb(211,211,211);
+}
+.courses{
+  background-color: #FFF;
+}
+#right1 h5{
+  background-color: rgb(47,79,79);
+  color: #FFF;
+}
+.spacer{
+    border-bottom: solid rgb(211,211,211) 1px;
+}
+.spacer-top{
   border-top: solid rgb(211,211,211) 1px;
 }
+video{
+    border: solid rgb(211,211,211) 1px;
+}
+
 footer{
   background-color: rgba(211,211,211, 0.2);
 }
-footer span{
-  color: rgb(47,79,79);
-  border-top: solid rgba(47,79,79,0.5) 1px;
-}
-footer ul{
-  border-top: solid rgba(47,79,79,0.5) 1px;
 }
 footer li a{
   color: rgb(47,79,79);
